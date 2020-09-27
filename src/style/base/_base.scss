@@ -5,6 +5,8 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   text-align: center;
+  scrollbar-width: thin;          /* "auto" or "thin"  */
+  scrollbar-color: #007B67 #ebecf1;
 }
 
 body::-webkit-scrollbar {
