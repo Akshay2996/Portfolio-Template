@@ -60,7 +60,7 @@ export default function () {
     ".about-wrapper__info",
     assignProps(
       {
-        delay: 800,
+        delay: 900,
         origin: window.innerWidth > 768 ? "left" : "bottom",
       },
       defaultProps
@@ -72,7 +72,7 @@ export default function () {
     ".project-wrapper__text",
     assignProps(
       {
-        delay: 600,
+        delay: 500,
         origin: window.innerWidth > 768 ? "left" : "bottom",
       },
       defaultProps
@@ -83,7 +83,7 @@ export default function () {
     ".project-wrapper__image",
     assignProps(
       {
-        delay: 800,
+        delay: 900,
         origin: window.innerWidth > 768 ? "right" : "bottom",
       },
       defaultProps
@@ -95,7 +95,7 @@ export default function () {
     ".contact-wrapper",
     assignProps(
       {
-        delay: 800,
+        delay: 1000,
         origin: "bottom",
       },
       defaultProps
