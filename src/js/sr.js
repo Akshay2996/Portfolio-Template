@@ -29,7 +29,7 @@ export default function() {
   ScrollReveal().reveal('.hero-cta', 
     assignProps(
       {
-        delay: 1000, 
+        delay: 700, 
         origin: window.innerWidth > 768 ? 'left' : 'bottom'
       }, defaultProps)
   );
@@ -46,7 +46,7 @@ export default function() {
   ScrollReveal().reveal('.about-wrapper__info', 
     assignProps(
       {
-        delay: 1000,
+        delay: 700,
         origin: window.innerWidth > 768 ? 'left' : 'bottom'
       }, defaultProps)
   );
@@ -63,7 +63,7 @@ export default function() {
   ScrollReveal().reveal('.project-wrapper__image', 
     assignProps(
       {
-        delay: 1000,
+        delay: 700,
         origin: window.innerWidth > 768 ? 'right' : 'bottom'
       }, defaultProps)
   );
@@ -72,7 +72,7 @@ export default function() {
   ScrollReveal().reveal('.contact-wrapper', 
     assignProps(
       {
-        delay: 800,
+        delay: 500,
         origin: 'bottom'
       }, defaultProps)
   );
