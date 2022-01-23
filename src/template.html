@@ -20,9 +20,9 @@
     />
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
-      ScrollReveal({ reset: false });
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+      ScrollReveal({ reset: false });     
     </script>
-
   </head>
 
   <!-- Follow the HTML instructions to create your stunning portfolio website -->
@@ -308,7 +308,7 @@
         <hr />
 
         <p class="footer__text">
-          © 2021 - Template by <a href="https://github.com/cobiwave/simplefolio">Jacobo Martinez</a>, Tweaked with ❤ by <a href="https://github.com/Akshay2996" target="_blank">Akshay Sharma</a>
+          © <span id="year"></span> - Template by <a href="https://github.com/cobiwave/simplefolio">Jacobo Martinez</a>, Tweaked with ❤ by <a href="https://github.com/Akshay2996" target="_blank">Akshay Sharma</a>
         </p>
       </div>
     </footer>
